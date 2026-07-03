@@ -85,10 +85,10 @@
         <mxCell id="_vlRhSPxX7msgqZGtXdR-2" parent="_vlRhSPxX7msgqZGtXdR-4" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://icons.diagrams.net/icon-cache1/Unicons_Line_vol_5-2967/robot-789.svg" value="" vertex="1">
           <mxGeometry height="119.17" width="119.17" x="270" y="130" as="geometry" />
         </mxCell>
-        <mxCell id="DP25Y497qRX_pNMji5oW-2" edge="1" parent="1" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#f8cecc;strokeColor=#b85450;" value="">
+        <mxCell id="DP25Y497qRX_pNMji5oW-2" edge="1" parent="1" style="shape=flexArrow;endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fillColor=#f8cecc;strokeColor=#b85450;width=15;startSize=7;endSize=7;" value="">
           <mxGeometry height="100" relative="1" width="100" as="geometry">
-            <mxPoint x="516" y="765" as="sourcePoint" />
-            <mxPoint x="610" y="765.5" as="targetPoint" />
+            <mxPoint x="516" y="770" as="sourcePoint" />
+            <mxPoint x="610" y="770.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="DP25Y497qRX_pNMji5oW-5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;b&gt;&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 16px;&quot;&gt;deployment&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 16px;&quot;&gt;gap&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;" vertex="1">
