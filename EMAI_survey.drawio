@@ -1,0 +1,82 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="第 1 页" id="8JCCGvwOMKZsxPVUO7FO">
+    <mxGraphModel dx="1414" dy="863" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="-QPKJWY0OgHF8YKsD8lW-4" parent="1" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;" value="" vertex="1">
+          <mxGeometry height="80" width="120" x="100" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="-QPKJWY0OgHF8YKsD8lW-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 18px;&quot;&gt;&lt;b style=&quot;&quot;&gt;quantization&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="60" y="555" as="geometry" />
+        </mxCell>
+        <mxCell id="-QPKJWY0OgHF8YKsD8lW-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 18px;&quot;&gt;&lt;b style=&quot;&quot;&gt;pruning and sparsity&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="200" y="555" as="geometry" />
+        </mxCell>
+        <mxCell id="-QPKJWY0OgHF8YKsD8lW-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 18px;&quot;&gt;&lt;b style=&quot;&quot;&gt;knowledge distillation&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="340" y="555" as="geometry" />
+        </mxCell>
+        <mxCell id="-QPKJWY0OgHF8YKsD8lW-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 18px;&quot;&gt;&lt;b style=&quot;&quot;&gt;efficient architecture&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="480" y="555" as="geometry" />
+        </mxCell>
+        <mxCell id="-QPKJWY0OgHF8YKsD8lW-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 18px;&quot;&gt;&lt;b style=&quot;&quot;&gt;hardware optimization&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="620" y="555" as="geometry" />
+        </mxCell>
+        <UserObject label="" mermaidData="{&#xa;  &quot;data&quot;: &quot;flowchart LR\n  subgraph Cloud [\&quot;云端模型\&quot;]\n    direction TB\n    A[\&quot;超大规模参数\&quot;]\n    B[\&quot;高推理延迟\&quot;]\n  end\n  subgraph Edge [\&quot;端侧机器人\&quot;]\n    direction TB\n    C[\&quot;有限内存资源\&quot;]\n    D[\&quot;极高实时性要求\&quot;]\n  end\n  Cloud &lt;--&gt;|通信链路| Edge&quot;,&#xa;  &quot;config&quot;: null&#xa;}" id="-QPKJWY0OgHF8YKsD8lW-10">
+          <mxCell connectable="0" parent="1" style="group;transparentBounds=1;editIcon=1;lockedGroup=0;groupPadding=20;" vertex="1">
+            <mxGeometry height="980" width="566" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 25px;&quot;&gt;&lt;b style=&quot;&quot;&gt;cloud model&lt;/b&gt;&lt;/font&gt;" mermaidId="n:Cloud" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;verticalAlign=top;fillColor=light-dark(#ffffde,#1f2020);strokeColor=light-dark(#aaaa33,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="云端模型" id="-QPKJWY0OgHF8YKsD8lW-11">
+          <mxCell parent="-QPKJWY0OgHF8YKsD8lW-10" style="html=1;whiteSpace=wrap;strokeWidth=1;verticalAlign=top;fillColor=light-dark(#ffffde,#1f2020);strokeColor=light-dark(#aaaa33,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;container=0;" vertex="1">
+            <mxGeometry height="300" width="416" x="130" y="660" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="端侧机器人" mermaidId="n:Edge" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;verticalAlign=top;fillColor=light-dark(#ffffde,#1f2020);strokeColor=light-dark(#aaaa33,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="端侧机器人" id="-QPKJWY0OgHF8YKsD8lW-14">
+          <mxCell parent="-QPKJWY0OgHF8YKsD8lW-10" style="html=1;whiteSpace=wrap;strokeWidth=1;verticalAlign=top;fillColor=light-dark(#ffffde,#1f2020);strokeColor=light-dark(#aaaa33,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" vertex="1">
+            <mxGeometry height="119" width="448" x="610" y="660" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="有限内存资源" mermaidId="n:C" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="有限内存资源" id="-QPKJWY0OgHF8YKsD8lW-15">
+          <mxCell parent="-QPKJWY0OgHF8YKsD8lW-14" style="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" vertex="1">
+            <mxGeometry height="54" width="156" x="35" y="45" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="极高实时性要求" mermaidId="n:D" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="极高实时性要求" id="-QPKJWY0OgHF8YKsD8lW-16">
+          <mxCell parent="-QPKJWY0OgHF8YKsD8lW-14" style="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" vertex="1">
+            <mxGeometry height="54" width="172" x="241" y="45" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="通信链路" mermaidId="e:Cloud-&gt;Edge#0" mermaidBaseStyle="curved=1;startArrow=block;startSize=7;endArrow=block;endSize=7;curved=1;strokeColor=light-dark(#333333,#cccccc);html=1;fontSize=16;labelBackgroundColor=light-dark(#E8E8E88D,#2a2a2a8D);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontColor=light-dark(#333333,#cccccc);exitX=1;exitY=0.5;entryX=0;entryY=0.5;" mermaidBaseValue="通信链路" id="-QPKJWY0OgHF8YKsD8lW-17">
+          <mxCell edge="1" parent="-QPKJWY0OgHF8YKsD8lW-10" source="-QPKJWY0OgHF8YKsD8lW-11" style="curved=1;startArrow=block;startSize=7;endArrow=block;endSize=7;strokeColor=light-dark(#333333,#cccccc);html=1;fontSize=16;labelBackgroundColor=light-dark(#E8E8E88D,#2a2a2a8D);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontColor=light-dark(#333333,#cccccc);exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;" target="-QPKJWY0OgHF8YKsD8lW-14">
+            <mxGeometry relative="1" as="geometry">
+              <Array as="points" />
+            </mxGeometry>
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 18px;&quot;&gt;&lt;b style=&quot;&quot;&gt;massive parameters&lt;/b&gt;&lt;/font&gt;" mermaidId="n:A" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="超大规模参数" id="-QPKJWY0OgHF8YKsD8lW-12">
+          <mxCell parent="-QPKJWY0OgHF8YKsD8lW-10" style="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" vertex="1">
+            <mxGeometry height="54" width="156" x="165" y="705" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 18px;&quot;&gt;&lt;b style=&quot;&quot;&gt;high inference latency&lt;/b&gt;&lt;/font&gt;" mermaidId="n:B" mermaidBaseStyle="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" mermaidBaseValue="高推理延迟" id="-QPKJWY0OgHF8YKsD8lW-13">
+          <mxCell parent="-QPKJWY0OgHF8YKsD8lW-10" style="html=1;whiteSpace=wrap;strokeWidth=1;fillColor=light-dark(#ECECFF,#1f2020);strokeColor=light-dark(#9370DB,#cccccc);fontColor=light-dark(#333333,#cccccc);fontFamily=Trebuchet MS,Verdana,Arial,sans-serif;fontSize=16;" vertex="1">
+            <mxGeometry height="54" width="140" x="371" y="705" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="-QPKJWY0OgHF8YKsD8lW-20" parent="-QPKJWY0OgHF8YKsD8lW-10" style="image;aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image=img/lib/active_directory/windows_server.svg;" value="" vertex="1">
+          <mxGeometry height="147.56" width="121" x="150" y="779" as="geometry" />
+        </mxCell>
+        <mxCell id="-QPKJWY0OgHF8YKsD8lW-23" parent="-QPKJWY0OgHF8YKsD8lW-10" style="image;points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;image=img/lib/allied_telesis/computer_and_terminals/Server_Desktop.svg;" value="" vertex="1">
+          <mxGeometry height="136.56" width="107.73" x="285.14" y="790" as="geometry" />
+        </mxCell>
+        <mxCell id="-QPKJWY0OgHF8YKsD8lW-24" parent="-QPKJWY0OgHF8YKsD8lW-10" style="image;html=1;image=img/lib/clip_art/computers/Server_Rack_Partial_128x128.png" value="" vertex="1">
+          <mxGeometry height="133.28" width="139" x="392.87" y="790" as="geometry" />
+        </mxCell>
+        <mxCell id="-QPKJWY0OgHF8YKsD8lW-19" parent="1" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/other/Defender_Industrial_Robot.svg;" value="" vertex="1">
+          <mxGeometry height="132.78" width="99.74" x="800" y="317.39" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
