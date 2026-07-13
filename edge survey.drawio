@@ -227,10 +227,10 @@
           <mxGeometry height="30" width="120" x="580" y="442.5" as="geometry" />
         </mxCell>
         <mxCell id="HWx69ffex-x17Lno-qGl-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;container=0;fillColor=#d5e8d4;strokeColor=#000000;" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;&lt;b&gt;Latency-Aware Switching&lt;/b&gt;&lt;/font&gt;" vertex="1">
-          <mxGeometry height="30" width="120" x="580" y="480" as="geometry" />
+          <mxGeometry height="30" width="120" x="580" y="482.5" as="geometry" />
         </mxCell>
         <mxCell id="HWx69ffex-x17Lno-qGl-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;container=0;fillColor=#d5e8d4;strokeColor=#000000;" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;&lt;b&gt;Early-Exit&amp;nbsp; Architectures&lt;/b&gt;&lt;/font&gt;" vertex="1">
-          <mxGeometry height="30" width="120" x="450" y="480" as="geometry" />
+          <mxGeometry height="30" width="120" x="450" y="482.5" as="geometry" />
         </mxCell>
         <mxCell id="P4z1W6zyqtdSm3awDH87-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=4;fillColor=light-dark(#7ea6e0, #1d293b);gradientColor=light-dark(#dae8fc, #436697);strokeColor=#000000;container=0;" value="" vertex="1">
           <mxGeometry height="115" width="310" x="130" y="55" as="geometry" />
@@ -343,11 +343,11 @@
         <mxCell id="HWx69ffex-x17Lno-qGl-40" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;container=0;" value="&lt;b style=&quot;font-size: 13px;&quot;&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;Simulation Transfer&lt;/font&gt;&lt;/b&gt;" vertex="1">
           <mxGeometry height="20" width="104" x="800" y="370" as="geometry" />
         </mxCell>
-        <mxCell id="HWx69ffex-x17Lno-qGl-41" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;container=0;" value="&lt;b style=&quot;font-size: 13px;&quot;&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;Data-Efficient Learning&lt;/font&gt;&lt;/b&gt;" vertex="1">
-          <mxGeometry height="20" width="104" x="740" y="840" as="geometry" />
+        <mxCell id="HWx69ffex-x17Lno-qGl-41" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;container=0;" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;&lt;b&gt;Synthetic Data and Augmentation&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="20" width="104" x="800" y="567.5" as="geometry" />
         </mxCell>
-        <mxCell id="HWx69ffex-x17Lno-qGl-42" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;container=0;" value="&lt;b style=&quot;font-size: 13px;&quot;&gt;&lt;font face=&quot;Comic Sans MS&quot;&gt;Data-Efficient Learning&lt;/font&gt;&lt;/b&gt;" vertex="1">
-          <mxGeometry height="20" width="104" x="1130" y="820" as="geometry" />
+        <mxCell id="HWx69ffex-x17Lno-qGl-42" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;container=0;" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;&lt;span style=&quot;font-size: 13px;&quot;&gt;&lt;b&gt;Efficient Collection&lt;/b&gt;&lt;/span&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="20" width="104" x="800" y="467.5" as="geometry" />
         </mxCell>
         <mxCell id="HWx69ffex-x17Lno-qGl-43" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;container=0;fillColor=#f8cecc;strokeColor=#000000;" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;&lt;b&gt;Domain Randomization&lt;/b&gt;&lt;/font&gt;" vertex="1">
           <mxGeometry height="30" width="120" x="920" y="345" as="geometry" />
@@ -358,8 +358,32 @@
         <mxCell id="HWx69ffex-x17Lno-qGl-45" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;container=0;fillColor=#f8cecc;strokeColor=#000000;" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;&lt;b&gt;Domain Adaptation&lt;/b&gt;&lt;/font&gt;" vertex="1">
           <mxGeometry height="30" width="120" x="1050" y="345" as="geometry" />
         </mxCell>
-        <mxCell id="HWx69ffex-x17Lno-qGl-46" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;container=0;fillColor=#f8cecc;strokeColor=#000000;" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;&lt;b&gt;Domain Randomization&lt;/b&gt;&lt;/font&gt;" vertex="1">
-          <mxGeometry height="30" width="120" x="1230" y="170" as="geometry" />
+        <mxCell id="HWx69ffex-x17Lno-qGl-46" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;container=0;fillColor=#f8cecc;strokeColor=#000000;" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;&lt;b&gt;Low-Cost Teleoperation&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="120" x="920" y="442.5" as="geometry" />
+        </mxCell>
+        <mxCell id="HWx69ffex-x17Lno-qGl-47" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;container=0;fillColor=#f8cecc;strokeColor=#000000;" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;&lt;b&gt;Data Reuse and Sharing&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="120" x="1050" y="482.5" as="geometry" />
+        </mxCell>
+        <mxCell id="HWx69ffex-x17Lno-qGl-48" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;container=0;fillColor=#f8cecc;strokeColor=#000000;" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;&lt;b&gt;Autonomous Collection&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="120" x="920" y="482.5" as="geometry" />
+        </mxCell>
+        <mxCell id="HWx69ffex-x17Lno-qGl-49" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;container=0;fillColor=#f8cecc;strokeColor=#000000;" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;&lt;b&gt;Learning from Human Video&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="120" x="1050" y="442.5" as="geometry" />
+        </mxCell>
+        <mxCell id="HWx69ffex-x17Lno-qGl-50" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;container=0;fillColor=#f8cecc;strokeColor=#000000;" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;&lt;b&gt;Synthesizing from Internet&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="120" x="980" y="582.5" as="geometry" />
+        </mxCell>
+        <mxCell id="HWx69ffex-x17Lno-qGl-51" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;container=0;fillColor=#f8cecc;strokeColor=#000000;" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;&lt;b&gt;LLM-Driven Imaginary&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="120" x="1050" y="542.5" as="geometry" />
+        </mxCell>
+        <mxCell id="HWx69ffex-x17Lno-qGl-52" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;container=0;fillColor=#f8cecc;strokeColor=#000000;" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;&lt;b&gt;Video Diffusion&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="120" x="920" y="542.5" as="geometry" />
+        </mxCell>
+        <mxCell id="HWx69ffex-x17Lno-qGl-53" parent="1" style="rounded=1;whiteSpace=wrap;html=1;strokeWidth=2;container=0;fillColor=#f8cecc;strokeColor=#000000;" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;&lt;b&gt;Low-Cost Teleoperation&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="120" x="1100" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="HWx69ffex-x17Lno-qGl-56" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;container=0;" value="&lt;span style=&quot;text-align: left;&quot;&gt;&lt;font style=&quot;font-size: 13px;&quot; face=&quot;Comic Sans MS&quot;&gt;&lt;b&gt;Efficiency Benchmarks&lt;/b&gt;&lt;/font&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="20" width="104" x="800" y="662.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
